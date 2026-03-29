@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #09090b;
+  --foreground: #ededed;
 }
 
 @theme inline {
@@ -12,15 +12,41 @@
   --font-mono: var(--font-geist-mono);
 }
 
+/* DARK MODE BASE */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #09090b;
     --foreground: #ededed;
   }
 }
 
+/* BASE */
 body {
-  background: var(--background);
+  background:
+    radial-gradient(circle at top, rgba(99, 102, 241, 0.15), transparent 40%),
+    radial-gradient(circle at bottom, rgba(168, 85, 247, 0.15), transparent 40%),
+    #09090b;
+
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* SCROLLBAR (DETALHE PREMIUM) */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #8b5cf6, #3b82f6);
+  border-radius: 999px;
+}
+
+/* SELECTION (quando seleciona texto) */
+::selection {
+  background: rgba(139, 92, 246, 0.4);
+  color: #fff;
 }
