@@ -31,7 +31,7 @@ Desenvolvido com foco em aplicações reais, organização de código e experiê
           </div>
 
           <div>
-            <h2 className="text-xl font-semibold mb-2">Tecnologias</h2>
+            <h2 className="text-xl font-semibold mb-2">Stack Tecnológica</h2>
            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
   
         <div>
