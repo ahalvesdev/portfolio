@@ -16,12 +16,12 @@ export default async function Home() {
       <div className="text-center mb-16">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
           <span className="bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
-            Desenvolvedor Web em formação
+            Desenvolvedor Fullstack
           </span>
         </h1>
 
         <p className="text-zinc-400 max-w-xl mx-auto">
-         Desenvolvendo aplicações reais com React, Next.js e integração com APIs, focando em performance e experiência do usuário.
+        Criando sistemas reais com foco em performace e experiência do usuário
         </p>
       </div>
 

@@ -32,16 +32,22 @@ Desenvolvido com foco em aplicações reais, organização de código e experiê
 
           <div>
             <h2 className="text-xl font-semibold mb-2">Tecnologias</h2>
-            <p className="text-zinc-400 leading-relaxed">
-              Frontend:
-              JavaScript, React, Next.js
-              Backend / BaaS:
-              Supabase
-              Em evolução:
-              TypeScript
-              Ferramentas:
-              Git, GitHub
-            </p>
+           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+  
+        <div>
+          <p><strong>Frontend:</strong> React, Next.js</p>
+          <p><strong>Em evolução:</strong> TypeScript</p>
+       </div>
+
+      <div>
+       <p><strong>Backend:</strong> Node.js</p>
+       <p><strong>BaaS:</strong> Supabase, Firebase</p>
+       <p><strong>Banco de Dados:</strong> PostgreSQL</p>
+       <p><strong>Deploy:</strong> Vercel, Firebase</p>
+       <p><strong>Ferramentas:</strong> Git, GitHub</p>
+     </div>
+
+</div> 
           </div>
 
           <div>
