@@ -53,7 +53,7 @@ export default async function Home() {
 
               <div className="mt-4 flex gap-3">
                 <a
-                  href={project.live_url}
+                  href="https://casa-da-empada-59260.web.app"
                   target="_blank"
                   className="text-sm px-4 py-2 rounded-md bg-gradient-to-r from-purple-600 to-blue-500 hover:opacity-90 transition"
                 >
