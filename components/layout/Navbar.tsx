@@ -15,7 +15,7 @@ export default function Navbar() {
 
   return (
     <header className="w-full sticky top-0 z-50 bg-[#020617]/60 backdrop-blur-2xl border-b border-white/10 shadow-[0_2px_20px_rgba(0,0,0,0.3)]">
-      <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between gap-6">
         
         {/* LOGO */}
         <Link href="/">
@@ -27,7 +27,7 @@ export default function Navbar() {
         </Link>
 
         {/* MENU */}
-        <nav className="flex gap-10 text-sm items-center group">
+        <nav className="flex gap-8 text-sm">
           {navLinks.map((link) => {
             const isActive = pathname === link.href
 
