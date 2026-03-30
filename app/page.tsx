@@ -20,7 +20,7 @@ export default async function Home() {
         </h1>
 
         <p className="text-zinc-400 max-w-xl mx-auto">
-          Projetos reais desenvolvidos com foco em performance, design e experiência do usuário.
+         Desenvolvendo aplicações reais com React, Next.js e integração com APIs, focando em performance e experiência do usuário.
         </p>
       </div>
 
